@@ -1,15 +1,23 @@
 {
+
   "name": "test-app",
   "version": "0.0.1",
+
   "repository" :
   { "type" : "git"
   , "url" : "https://github.com/nikitarui/test-app.git"
   },
+
   "dependencies": {
-    "@types/node": "^8.0.19"
+    "@types/node": "^8.0.19",
+    "@types/mocha": "^2.2.41",
+    "@types/chai": "^4.0.2",
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
   },
 
   "scripts": {
     "test": "mocha ./build/test"
   }
+
 }
