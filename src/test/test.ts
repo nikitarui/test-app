@@ -22,5 +22,7 @@ describe('Main Test', function(){
         console.log("test 2");
     });
 
+    var i = 9;
+
 })
 
