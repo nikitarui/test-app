@@ -1,4 +1,12 @@
 language: node_js
-node:
--"stable"
+node_js:
+  - "7"
 
+before-install:
+  -npm i -g typescript
+
+install:
+  -npm install
+
+script:
+  -npm build
