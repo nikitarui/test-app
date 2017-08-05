@@ -45,6 +45,5 @@ describe('People Test', function(){
         p.age.should.be.equal(23);
     });
 
-
-})
+});
 
