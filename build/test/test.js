@@ -14,5 +14,7 @@ describe('Main Test', function () {
     it('tets 2', function () {
         console.log("test 2");
     });
-    var i = 9;
+    it('test 3', function () {
+        console.log("test-3");
+    });
 });
