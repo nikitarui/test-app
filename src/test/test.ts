@@ -23,7 +23,7 @@ describe('Main Test', function(){
     });
 
     it('test3', function(){
-        console.log("test-3")
+        console.log("test-3");
     })
 
 })
